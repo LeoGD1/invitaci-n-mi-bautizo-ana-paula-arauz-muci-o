@@ -19,10 +19,11 @@
 .principal__h1 {
     font-size: 3rem;
     font-family: var(--text-titles);
+    margin-bottom: 1rem;
 }
 
 .principal__img {
-    height: 100px;
+    height: 90px;
 }
 
 .principal__nombre {

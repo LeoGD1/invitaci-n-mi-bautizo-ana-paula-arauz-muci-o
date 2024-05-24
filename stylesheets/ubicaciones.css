@@ -40,8 +40,16 @@
 }
 
 .ubicaciones__icono {
-    height: 150px;
-    margin: 1rem 0;
+    max-width: 250px;
+    width: 100%;
+    margin: 1rem auto;
+    object-fit: contain;
+    outline: 5px solid var(--secondary-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .ubicaciones__subtitulo {
